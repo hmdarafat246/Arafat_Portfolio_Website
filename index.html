@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arafat Hossain — aspiring web developer portfolio">
+  <title>Arafat Hossain | Website </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="threeDBackground" aria-hidden="true"></canvas>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home"><span class="logo-symbol">✦</span> Arafat<span class="logo-dot">.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">☼</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> ASPIRING DEVELOPER · BANGLADESH</p>
+          <h1>Hi, I'm<br><span class="gradient-text">Arafat Hossain </span><br>I Build <span id="typedText" >Web Experiences </span><span class="typing-cursor">|</span></h1>
+          <p class="hero-description">I’m learning to turn ideas into clean, responsive and user-friendly websites. I enjoy exploring technology, solving problems and creating something new with code.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-secondary" href="#contact">Let’s talk</a>
+          </div>
+          <div class="stats">
+            <div><strong>03<span>+</span></strong><small>Core technologies</small></div>
+            <div><strong>05<span>+</span></strong><small>Project ideas</small></div>
+            <div><strong>100<span>%</span></strong><small>Curiosity</small></div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.instagram.com/_ara_fat_hos_sain/" target="_blank" rel="noreferrer">Instagram ↗</a>
+            <a href="https://www.facebook.com/mdarafatislim.islim" target="_blank" rel="noreferrer">Facebook ↗</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="visual-grid"></div><div class="glow glow-one"></div><div class="glow glow-two"></div>
+          <div class="portrait-frame">
+            <div class="portrait-placeholder has-photo">
+              <img src="assets/profile.jpg" alt="Arafat Hossain" class="profile-photo">
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious mind. <span class="gradient-text">Creative code.</span></h2><p>I'm at the beginning of my development journey, focused on learning the fundamentals and improving with every project.</p></div>
+        <div class="about-grid">
+          <div class="about-card reveal"><div class="about-icon">✦</div><h3>Who I am</h3><p>I’m Arafat Hossain, I'm Student Of Computer Science. I like technology</p></div>
+          <div class="about-card reveal"><div class="about-icon">⌘</div><h3>What I do</h3><p>I practice HTML, CSS and JavaScript to build responsive web pages. I’m also exploring programming concepts and useful digital tools.</p></div>
+          <div class="about-card reveal"><div class="about-icon">↗</div><h3>My goal</h3><p>To become a passionate software developer, build modern and user-friendly digital experiences, and turn creative ideas into real-world solutions. I aim to continuously improve my skills, explore new technologies, and create projects that make a meaningful impact.</p></div>
+        </div>
+        <div class="about-note reveal"><span class="note-mark">“</span><p>Small steps every day can build something remarkable.</p><span class="note-line"></span></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">WHAT I'M LEARNING</p><h2>My <span class="gradient-text">toolkit.</span></h2><p>These are the skills and tools I’m practicing. Update the levels as you progress.</p></div>
+        <div class="skills-layout">
+          <div class="skill-panel reveal">
+            <div class="panel-heading"><span class="panel-icon">⌘</span><div><h3>Development skills</h3><p>Building the foundation</p></div></div>
+            <div class="skill-item"><div class="skill-label"><span>HTML</span><span>Learning</span></div><div class="skill-track"><span style="width:72%"></span></div></div>
+            <div class="skill-item"><div class="skill-label"><span>CSS</span><span>Learning</span></div><div class="skill-track"><span style="width:58%"></span></div></div>
+            <div class="skill-item"><div class="skill-label"><span>JavaScript</span><span>Beginner</span></div><div class="skill-track"><span style="width:35%"></span></div></div>
+            <div class="skill-item"><div class="skill-label"><span>Java / Python</span><span>Exploring</span></div><div class="skill-track"><span style="width:28%"></span></div></div>
+            <div class="skill-item"><div class="skill-label"><span>C#</span><span>Learning</span></div><div class="skill-track"><span style="width:20%"></span></div></div>
+          </div>
+          <div class="tools-panel reveal">
+            <div class="panel-heading"><span class="panel-icon">⚡</span><div><h3>Tools I use</h3><p>My everyday workspace</p></div></div>
+            <div class="tool-grid"><div class="tool-chip"><b>VS</b><span>VS Code</span></div><div class="tool-chip"><b>GH</b><span>GitHub</span></div><div class="tool-chip"><b>HT</b><span>HTML</span></div><div class="tool-chip"><b>CS</b><span>CSS</span></div><div class="tool-chip"><b>JS</b><span>JavaScript</span></div><div class="tool-chip"><b>C#</b><span>C Programming</span></div></div>
+            <p class="tools-tip">Always open to learning new tools and better workflows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="journey">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">MY JOURNEY</p><h2>Learning by <span class="gradient-text">doing.</span></h2><p>A simple timeline for my growth. Replace these entries with your real education and achievements.</p></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">CURRENT</div><div class="timeline-card"><span class="timeline-tag">LEARNING</span><h3>Web Development Foundations</h3><p>Practicing HTML, CSS and JavaScript while creating small websites and improving responsive design skills.</p></div></article>
+          <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">ONGOING</div><div class="timeline-card"><span class="timeline-tag">EDUCATION</span><h3>Diploma / Academic Studies</h3><p>Brahmanbaria Polytechnic Institute, Computer Science Department, Current Term - 2024 and Study Dates -2027.</p></div></article>
+          <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">NEXT GOAL</div><div class="timeline-card"><span class="timeline-tag">CAREER</span><h3>Become a Networking & Web Developer</h3><p>I am interested in network configuration, troubleshooting, and network security. Build a strong portfolio, contribute to real projects and keep developing practical software skills.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">SELECTED WORK</p><h2>Projects with <span class="gradient-text">purpose.</span></h2><p>Showcase your best work here. Replace sample links and descriptions with your own projects.</p></div>
+        <div class="project-grid">
+          <article class="project-card reveal"><div class="project-art art-one"><span class="art-symbol">01</span><div class="mock-window"><i></i><i></i><i></i><div class="mock-lines"></div><div class="mock-block"></div></div></div><div class="project-body"><div class="project-meta"><span>WEB DESIGN</span><span>01 / 03</span></div><h3>Personal Portfolio</h3><p>A responsive portfolio website to introduce myself, share skills and showcase projects.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#contact">Discuss a similar project <span>↗</span></a></div></article>
+          <article class="project-card reveal"><div class="project-art art-two"><span class="art-symbol">02</span><div class="mock-dashboard"><div class="dash-side"></div><div class="dash-content"><i></i><i></i><div class="dash-chart"></div><div class="dash-bars"></div></div></div></div><div class="project-body"><div class="project-meta"><span>APP CONCEPT</span><span>02 / 03</span></div><h3>Task Planner UI</h3><p>A clean task planner concept designed to organize daily goals and keep work on track.</p><div class="tag-list"><span>UI Design</span><span>CSS Grid</span><span>Responsive</span></div><a class="project-link" href="#contact">Discuss a similar project <span>↗</span></a></div></article>
+          <article class="project-card reveal"><div class="project-art art-three"><span class="art-symbol">03</span><div class="weather-card"><span>☀</span><strong>28°</strong><small>Good day ahead</small><div class="weather-line"></div></div></div><div class="project-body"><div class="project-meta"><span>JAVASCRIPT</span><span>03 / 03</span></div><h3>Weather App Concept</h3><p>A weather dashboard idea with a simple layout, readable details and mobile-friendly cards.</p><div class="tag-list"><span>JavaScript</span><span>API-ready</span><span>UI</span></div><a class="project-link" href="#contact">Discuss a similar project <span>↗</span></a></div></article>
+    </section>
+
+    <section class="section section-muted" id="contact">
+      <div class="container">
+        <div class="contact-wrap">
+          <div class="contact-copy reveal"><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let’s make something <span class="gradient-text">great.</span></h2><p>Have an idea, want to collaborate, or just want to say hello? Send me a message.</p><div class="contact-details"><a href="mailto:mdarafathossain3579@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL ME</small><strong>mdarafathossain3579@gmail.com</strong></span></a><a href="https://www.facebook.com/mdarafatislim.islim" target="_blank" rel="noreferrer"><span class="contact-icon">ⓕ</span><span><small>FACEBOOK</small><strong>Connect on Facebook</strong></span></a></div></div>
+          <form class="contact-form reveal" id="contactForm">
+            <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+            <label for="email">Your email</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+            <label for="message">Your message</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about your idea..." required></textarea>
+            <button class="button button-primary submit-button" type="submit">Prepare email <span>↗</span></button>
+            <p class="form-hint" id="formHint">This form opens your email app; it does not store messages on a server.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home"><span class="logo-symbol">✦</span> Arafat<span class="logo-dot">.</span></a><p>Designed with care · <span id="year"></span> Arafat Hossain</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
